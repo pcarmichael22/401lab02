@@ -1,0 +1,24 @@
+{
+  "name": "401lab02",
+  "version": "1.0.0",
+  "description": "Lab 2 - 401d32",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^24.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest --verbose --coverage"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pcarmichael22/401lab02.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pcarmichael22/401lab02/issues"
+  },
+  "homepage": "https://github.com/pcarmichael22/401lab02#readme"
+}
