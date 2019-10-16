@@ -48,28 +48,28 @@
 //  * @returns {boolean}
 //  */
 
- class Validator {
-   constructor(input){
-     this.input = input
-   }
-   isString() {
+class Validator {
+  constructor(input){
+    this.input = input;
+  }
+  isString() {
     return typeof input === 'string';
-   }
-   isNumber() {
+  }
+  isNumber() {
     return typeof input === 'number';
-   }
-   isArray() {
-     return Array.isArray(input);
-   }
-   isObject() {
-     return typeof input === 'object';
-   }
-   isBoolean() {
-     return typeof input === 'boolean';
-   }
-   isFunction() {
-     return typeof input === 'function'
-   }
- }
+  }
+  isArray() {
+    return Array.isArray(input);
+  }
+  isObject() {
+    return typeof input === 'object';
+  }
+  isBoolean() {
+    return typeof input === 'boolean';
+  }
+  isFunction() {
+    return typeof input === 'function';
+  }
+}
 
- module.exports = Validator;
+module.exports = Validator;

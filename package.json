@@ -6,10 +6,15 @@
   "dependencies": {
     "jest": "^24.9.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^6.5.1"
+  },
   "scripts": {
-    "test": "jest --verbose --coverage"
-    },
+    "test": "jest --verbose --coverage",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json",
+    "lint": "eslint './**/*.js' --fix",
+    "start": "node index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pcarmichael22/401lab02.git"
